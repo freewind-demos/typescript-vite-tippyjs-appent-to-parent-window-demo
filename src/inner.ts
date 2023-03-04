@@ -6,5 +6,6 @@ tippy(button!, {
     content: 'Hello, tippy',
     appendTo: parent.document.body,
     trigger: 'click',
-    placement: 'right'
+    placement: 'right',
+    offset:[85, 20]
 })
